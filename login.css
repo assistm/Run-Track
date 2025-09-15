@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.caixa-login {
+  background: #007BFF; 
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  background: #FFEB00;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+header p {
+  background: #FFEB00;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  font-size: 12px;
+  margin-left: 5px;
+  display: block;
+  color: black;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  background: #FFEB00;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn-continuar {
+  margin-top: 10px;
+}
+
+.btn-cadastro {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  background: #007BFF;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
